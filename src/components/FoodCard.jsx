@@ -40,7 +40,7 @@ function FoodCard({ foodObj }) {
         </span>
         <button
           onClick={addToCart}
-          className='p-3 text-white bg-green-500 hover:bg-green-600 rounded-lg text-sm'
+          className='p-3 text-white bg-green-500 hover:bg-green-600 rounded-lg text-sm hover:cursor-pointer'
         >
           Add to cart
         </button>

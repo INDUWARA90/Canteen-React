@@ -1,7 +1,22 @@
+import ChickenKothtu from '../assets/koththu.png'
+import StringHoppers from '../assets/String Hoppers.png'
+import FishCurry from '../assets/Fish Curry.png'
+import MilkRice from '../assets/Milk Rice.png'
+import EggHopper from '../assets/Egg Hopper.png'
+import VegetableRoti from '../assets/Vegetable Roti.png'
+import DevilledChicken from '../assets/Devilled Chicken.png'
+import Lamprais from '../assets/Lamprais.png'
+import DhalCurry from '../assets/Dhal Curry.png'
+import BeefCurry from '../assets/Beef Curry.png'
+import PolSambol from '../assets/Pol Sambol.png'
+import Watalappam from '../assets/Watalappam.png'
+import Pittu from '../assets/Pittu.png'
+import ChickenCurry from '../assets/Chicken Curry.png'
+
 const foodArray = [
   {
     id: 1,
-    image: "https://example.com/images/chicken-kottu.jpg",
+    image:ChickenKothtu,
     name: "Chicken Kottu",
     price: 850.0,
     description: "Chopped godamba roti stir-fried with chicken, vegetables, egg, and curry.",
@@ -9,8 +24,8 @@ const foodArray = [
     category: "dinner"
   },
   {
-    id: 2,
-    image: "https://example.com/images/string-hoppers.jpg",
+    id:2,
+    image:StringHoppers,
     name: "String Hoppers",
     price: 400.0,
     description: "Steamed rice noodle nests served with dhal curry and coconut sambol.",
@@ -19,7 +34,7 @@ const foodArray = [
   },
   {
     id: 3,
-    image: "https://example.com/images/fish-curry.jpg",
+    image:FishCurry,
     name: "Fish Curry",
     price: 650.0,
     description: "A spicy Sri Lankan curry made with fresh fish and coconut milk.",
@@ -28,7 +43,7 @@ const foodArray = [
   },
   {
     id: 4,
-    image: "https://example.com/images/milk-rice.jpg",
+    image:MilkRice,
     name: "Milk Rice (Kiribath)",
     price: 300.0,
     description: "A traditional coconut milk rice dish eaten during celebrations.",
@@ -37,7 +52,7 @@ const foodArray = [
   },
   {
     id: 5,
-    image: "https://example.com/images/egg-hopper.jpg",
+    image:EggHopper,
     name: "Egg Hopper",
     price: 150.0,
     description: "Crispy fermented rice flour pancake with a soft egg center.",
@@ -46,7 +61,7 @@ const foodArray = [
   },
   {
     id: 6,
-    image: "https://example.com/images/veggie-roti.jpg",
+    image:VegetableRoti,
     name: "Vegetable Roti",
     price: 100.0,
     description: "Flaky flatbread filled with spicy vegetables.",
@@ -55,7 +70,7 @@ const foodArray = [
   },
   {
     id: 7,
-    image: "https://example.com/images/devilled-chicken.jpg",
+    image:DevilledChicken,
     name: "Devilled Chicken",
     price: 900.0,
     description: "Deep-fried chicken tossed in a sweet and spicy chili sauce.",
@@ -64,7 +79,7 @@ const foodArray = [
   },
   {
     id: 8,
-    image: "https://example.com/images/lamprais.jpg",
+    image:Lamprais,
     name: "Lamprais",
     price: 1000.0,
     description: "Dutch-influenced rice and curry wrapped in banana leaf and baked.",
@@ -73,7 +88,7 @@ const foodArray = [
   },
   {
     id: 9,
-    image: "https://example.com/images/parippu.jpg",
+    image:DhalCurry,
     name: "Dhal Curry (Parippu)",
     price: 250.0,
     description: "A mild red lentil curry cooked in coconut milk and spices.",
@@ -82,7 +97,7 @@ const foodArray = [
   },
   {
     id: 10,
-    image: "https://example.com/images/beef-curry.jpg",
+    image:BeefCurry,
     name: "Beef Curry",
     price: 750.0,
     description: "Rich and spicy beef curry slow-cooked with traditional Sri Lankan spices.",
@@ -91,7 +106,7 @@ const foodArray = [
   },
   {
     id: 11,
-    image: "https://example.com/images/pol-sambol.jpg",
+    image:PolSambol,
     name: "Pol Sambol",
     price: 100.0,
     description: "A spicy coconut relish made with grated coconut, chili, and lime.",
@@ -100,7 +115,7 @@ const foodArray = [
   },
   {
     id: 12,
-    image: "https://example.com/images/watalappam.jpg",
+    image:Watalappam,
     name: "Watalappam",
     price: 350.0,
     description: "A rich coconut custard pudding made with jaggery and spices.",
@@ -109,7 +124,7 @@ const foodArray = [
   },
   {
     id: 13,
-    image: "https://example.com/images/pittu.jpg",
+    image:Pittu,
     name: "Pittu",
     price: 300.0,
     description: "Steamed cylinders of ground rice and coconut, served with curry or sweet coconut milk.",
@@ -118,16 +133,7 @@ const foodArray = [
   },
   {
     id: 14,
-    image: "https://example.com/images/kiribath-sambol.jpg",
-    name: "Kiribath with Lunu Miris",
-    price: 350.0,
-    description: "Coconut milk rice served with spicy onion sambol.",
-    rating: 4.5,
-    category: "breakfast"
-  },
-  {
-    id: 15,
-    image: "https://example.com/images/kukul-mas-curry.jpg",
+    image:ChickenCurry,
     name: "Chicken Curry (Kukul Mas)",
     price: 700.0,
     description: "Classic Sri Lankan chicken curry simmered with spices and coconut milk.",

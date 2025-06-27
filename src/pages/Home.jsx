@@ -6,13 +6,12 @@ import FoodItems from '../components/FoodItems';
 import { FaShoppingCart } from 'react-icons/fa';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import foodArray from '../Data/foodArray'; // ✅ Add this import
+import foodArray from '../Data/foodArray'; 
 
 function Home() {
   const [showCart, setShowCart] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
 
-  // ✅ Filter food list by search term
   const filteredFoods = foodArray.filter(food =>
     food.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
