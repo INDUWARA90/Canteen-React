@@ -1,7 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import Payment from './pages/Payment';
+import Payment from './pages/payment';
 import Error from './pages/Error';
 import CategoryPage from './pages/CategoryPage';
 import ThankYou from './pages/ThankYou';
